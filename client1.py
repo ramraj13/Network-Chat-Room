@@ -4,7 +4,7 @@ import time
 
 
 host=socket.gethostbyname(socket.gethostname())
-port=5000
+port=4444
 
 client=socket.socket(family=socket.AF_INET,type=socket.SOCK_STREAM)
 client.connect((host,port))

@@ -3,7 +3,7 @@ import threading
 import time
 
 host=socket.gethostbyname(socket.gethostname())
-port=5000
+port=4444
 address=(host,port)
 server=socket.socket(family=socket.AF_INET,type=socket.SOCK_STREAM)
 server.bind(address)
